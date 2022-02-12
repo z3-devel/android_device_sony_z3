@@ -35,6 +35,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480
 
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.default_network=9
+
 # USB path
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.pid_suffix=1BA
+
+
